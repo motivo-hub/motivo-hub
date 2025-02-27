@@ -6,14 +6,14 @@ firmware_images_url = "https://motivo-hub.github.io/motivo-hub/fw/"
 supported_apps = ["PGI-Filter-Analyzer-A-0.0.7", "PGI-Filter-Analyzer-9854328"]
 
 [PGI-Filter-Analyzer-A-0.0.7]
-chipsets = ["all"]
-image.all = "Full_firmware_v0.0.7.bin"
+chipsets = ["ESP32"]
+image.esp32 = "Full_firmware_v0.0.7.bin"
 description = "Full Recovery F/W v.A-0.0.7 (User settings will be lost)"
 readme.text = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.md"
 
 [PGI-Filter-Analyzer-9854328]
-chipsets = ["all"]
-image.all = "bootapp0+firmware.9854328.bin"
+chipsets = ["ESP32"]
+image.esp32 = "bootapp0+firmware.9854328.bin"
 description = "Partial update F/W ver. dev@9854328 (User settings will maintained)"
 readme.text = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.md"
 
