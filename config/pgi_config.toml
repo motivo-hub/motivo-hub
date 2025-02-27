@@ -3,11 +3,10 @@ esp_toml_version = 1.0
 # Base URL of the file server where the images are available
 firmware_images_url = "https://motivo-hub.github.io/motivo-hub/fw/"
 
-supported_apps = ["PGI_Filter_Analyzer_Firmware", "Matter-AllClustersApp-M5Stack-TE9", "Matter-LightingApp-TE9"]
+supported_apps = ["PGI_Filter_Analyzer_Firmware"]
 
 [PGI_Filter_Analyzer_Firmware]
-chipsets = ["ESP32", "ESP32-S3"]
+chipsets = ["ESP32"]
 image.esp32 = "Full_firmware_v0.0.7.bin"
-image.esp32-c3 = "esp32c3_matter_all-clusters-app.bin"
 
 config_readme_url = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.md"
