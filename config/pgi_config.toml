@@ -8,7 +8,7 @@ supported_apps = ["PGI-Filter-Analyzer-1", "Matter-AllClustersApp-M5Stack-TE9", 
 [PGI-Filter-Analyzer-1]
 chipsets = ["ESP32", "ESP32-C3"]
 image.esp32 = "Full_firmware_v0.0.7.bin"
-image.esp32-c3 = "esp32c3_matter_all-clusters-app.bin"
+image.esp32-c3 = "firmware.9854328.bin"
 ios_app_url = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.md"
 android_app_url = ""
 
