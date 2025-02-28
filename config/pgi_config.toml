@@ -7,8 +7,8 @@ supported_apps = ["Normal-Update_A-0_0_7", "Full-Recovery_A-0_0_7", "Normal-Upda
 
 [Normal-Update_A-0_0_7]
 chipsets = ["auto-detect"]
-image.auto-detect = "ba0-fw_e000_A-0_0_7.bin"
-offset = "0xe000"
+image.auto-detect = "fw_10000_A-0_0_7.bin"
+offset = "0x10000"
 description = "PGI Filter Analyzer - Normal Update F/W ver. A-0.0.7 (User settings will be preserved)"
 readme.text = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.A-0.0.7.md"
 
@@ -21,8 +21,8 @@ readme.text = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.A-0.0.7.m
 
 [Normal-Update_Nightly]
 chipsets = ["auto-detect"]
-image.auto-detect = "ba0-fw_e000_nightly.bin"
-offset = "0xe000"
+image.auto-detect = "fw_10000_nightly.bin"
+offset = "0x10000"
 description = "PGI Filter Analyzer - Nightly Build of Normal Update F/W (User settings will be preserved)"
 readme.text = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.nightly.md"
 
