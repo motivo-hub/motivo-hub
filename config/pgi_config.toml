@@ -8,12 +8,14 @@ supported_apps = ["PGI-Filter-Analyzer-9854328", "PGI-Filter-Analyzer-A-0_0_7"]
 [PGI-Filter-Analyzer-9854328]
 chipsets = ["auto-detect"]
 image.auto-detect = "bootapp0+firmware.9854328.bin"
+offset.auto-detect = 0xe000
 description = "Partial update F/W ver. dev@9854328 (User settings will be preserved)"
 readme.text = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.md"
 
 [PGI-Filter-Analyzer-A-0_0_7]
 chipsets = ["auto-detect"]
 image.auto-detect = "Full_firmware_v0.0.7.bin"
+offset.auto-detect = 0x00000
 description = "Full Recovery F/W v.A-0.0.7 (User settings will be lost)"
 readme.text = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.md"
 
