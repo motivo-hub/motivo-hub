@@ -14,7 +14,7 @@ readme.text = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.A-0.0.7.m
 
 [PGI-Filter-Analyzer-Full_Recovery_A-0_0_7]
 chipsets = ["auto-detect"]
-image.auto-detect = "00000_bootloader_partitions_bootapp0_firmware_A-0_0_7.bin"
+image.auto-detect = "x00000_bootloader_partitions_bootapp0_firmware_A-0_0_7.bin"
 offset = "0x00000"
 description = "Full Recovery F/W ver. A-0.0.7 (User settings will be erased)"
 readme.text = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.A-0.0.7.md"
