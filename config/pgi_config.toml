@@ -3,21 +3,27 @@ esp_toml_version = 1.0
 # Base URL of the file server where the images are available
 firmware_images_url = "https://motivo-hub.github.io/motivo-hub/fw/"
 
-supported_apps = ["PGI-Filter-Analyzer-A-0_0_7", "PGI-Filter-Analyzer-9854328"]
+supported_apps = ["PGI-Filter-Analyzer-Normal_Update_A-0_0_7", PGI-Filter-Analyzer-Full_Recovery_A-0_0_7, "PGI-Filter-Analyzer-Normal-Update-nightly"]
 
-[PGI-Filter-Analyzer-9854328]
+[PGI-Filter-Analyzer-Normal_Update_A-0_0_7]
 chipsets = ["auto-detect"]
-image.auto-detect = "bootapp0+firmware.9854328.bin"
+image.auto-detect = "e000.bootapp0+firmware.A-0_0_7"
 offset = "0xe000"
-description = "Partial update F/W ver. dev@9854328 (User settings will be preserved)"
-readme.text = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.md"
+description = "Normal Update F/W ver. A-0.0.7 (User settings will be preserved)"
+readme.text = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.A-0.0.7.md"
 
-[PGI-Filter-Analyzer-A-0_0_7]
+[PGI-Filter-Analyzer-Full_Recovery_A-0_0_7]
 chipsets = ["auto-detect"]
-image.auto-detect = "Full_firmware_v0.0.7.bin"
+image.auto-detect = "00000.bootloader+partitions+bootapp0+firmware.A-0_0_7"
 offset = "0x00000"
-description = "Full Recovery F/W v.A-0.0.7 (User settings will be lost)"
-readme.text = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.md"
+description = "Full Recovery F/W ver. A-0.0.7 (User settings will be erased)"
+readme.text = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.A-0.0.7.md"
 
+[PGI-Filter-Analyzer-Normal-Update-nightly]
+chipsets = ["auto-detect"]
+image.auto-detect = "bootapp0+firmware.nightly.bin"
+offset = "0xe000"
+description = "Nightly Build of Normal Update F/W (User settings will be preserved)"
+readme.text = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.nightly.md"
 
-config_readme_url = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.md"
+config_readme_url = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.A-0.0.7.md"
