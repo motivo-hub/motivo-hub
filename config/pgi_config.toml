@@ -3,7 +3,7 @@ esp_toml_version = 1.0
 # Base URL of the file server where the images are available
 firmware_images_url = "https://motivo-hub.github.io/motivo-hub/fw/"
 
-supported_apps = ["PGI-Filter-Analyzer-Normal_Update_A-0_0_7", PGI-Filter-Analyzer-Full_Recovery_A-0_0_7, "PGI-Filter-Analyzer-Normal-Update-nightly"]
+supported_apps = ["PGI-Filter-Analyzer-Normal_Update_A-0_0_7", "PGI-Filter-Analyzer-Full_Recovery_A-0_0_7", "PGI-Filter-Analyzer-Normal-Update-nightly"]
 
 [PGI-Filter-Analyzer-Normal_Update_A-0_0_7]
 chipsets = ["auto-detect"]
