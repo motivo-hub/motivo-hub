@@ -3,18 +3,19 @@ esp_toml_version = 1.0
 # Base URL of the file server where the images are available
 firmware_images_url = "https://motivo-hub.github.io/motivo-hub/fw/"
 
-supported_apps = ["PGI-Filter-Analyzer-A-0.0.7", "PGI-Filter-Analyzer-9854328"]
-
-[PGI-Filter-Analyzer-A-0.0.7]
-chipsets = ["auto-detect"]
-image.auto-detect = "Full_firmware_v0.0.7.bin"
-description = "Full Recovery F/W v.A-0.0.7 (User settings will be lost)"
-readme.text = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.md"
+supported_apps = ["PGI-Filter-Analyzer-9854328", "PGI-Filter-Analyzer-A-0_0_7"]
 
 [PGI-Filter-Analyzer-9854328]
 chipsets = ["auto-detect"]
 image.auto-detect = "bootapp0+firmware.9854328.bin"
 description = "Partial update F/W ver. dev@9854328 (User settings will be preserved)"
 readme.text = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.md"
+
+[PGI-Filter-Analyzer-A-0_0_7]
+chipsets = ["auto-detect"]
+image.auto-detect = "Full_firmware_v0.0.7.bin"
+description = "Full Recovery F/W v.A-0.0.7 (User settings will be lost)"
+readme.text = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.md"
+
 
 config_readme_url = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.md"
