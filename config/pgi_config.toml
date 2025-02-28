@@ -3,25 +3,25 @@ esp_toml_version = 1.0
 # Base URL of the file server where the images are available
 firmware_images_url = "https://motivo-hub.github.io/motivo-hub/fw/"
 
-supported_apps = ["PGI-Filter-Analyzer-Normal_Update_A-0_0_7", "PGI-Filter-Analyzer-Full_Recovery_A-0_0_7", "PGI-Filter-Analyzer-Normal-Update-nightly"]
+supported_apps = ["PGI-Filter-Analyzer_Normal-Update_A-0_0_7", "PGI-Filter-Analyzer_Full-Recovery_A-0_0_7", "PGI-Filter-Analyzer_Normal-Update_Nightly"]
 
-[PGI-Filter-Analyzer-Normal_Update_A-0_0_7]
+[PGI-Filter-Analyzer_Normal-Update_A-0_0_7]
 chipsets = ["auto-detect"]
-image.auto-detect = "e000_ba0_fw_A-0_0_7.bin"
+image.auto-detect = "_e000_ba0_fw_A-0_0_7.bin"
 offset = "0xe000"
 description = "Normal Update F/W ver. A-0.0.7 (User settings will be preserved)"
 readme.text = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.A-0.0.7.md"
 
-[PGI-Filter-Analyzer-Full_Recovery_A-0_0_7]
+[PGI-Filter-Analyzer_Full-Recovery_A-0_0_7]
 chipsets = ["auto-detect"]
-image.auto-detect = "0000_bl_part_ba0_fw_A-0_0_7.bin"
+image.auto-detect = "_0000_bl_part_ba0_fw_A-0_0_7.bin"
 offset = "0x00000"
 description = "Full Recovery F/W ver. A-0.0.7 (User settings will be erased)"
 readme.text = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.A-0.0.7.md"
 
-[PGI-Filter-Analyzer-Normal-Update-nightly]
+[PGI-Filter-Analyzer_Normal-Update_Nightly]
 chipsets = ["auto-detect"]
-image.auto-detect = "e000_ba0_fw_nightly.bin"
+image.auto-detect = "_e000_ba0_fw_nightly.bin"
 offset = "0xe000"
 description = "Nightly Build of Normal Update F/W (User settings will be preserved)"
 readme.text = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.nightly.md"
