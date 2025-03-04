@@ -6,7 +6,7 @@
 * Full power off timer to help conserve battery
     * Will turn off device after 5 minutes of inactivity
     * Screen will go into standby mode after 2 minutes of inactivity 
-* Turns on backlight and brings up bootup message sooner
+* Turns on backlight and brings up bootup message sooner: more immediate feedback for user
 
 
 **Fixes:**
