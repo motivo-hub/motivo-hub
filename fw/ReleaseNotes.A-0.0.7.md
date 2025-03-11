@@ -1,4 +1,4 @@
-# PGI Filter Analyzer Firmware
+# PGI PureFlow ViAQ Analyzer Firmware
 
 ## ver. A-0.0.7
 
