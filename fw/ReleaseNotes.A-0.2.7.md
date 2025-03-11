@@ -28,6 +28,8 @@
 **Fixes:**
 * Fixes hanging network timers preventing handling of power interrupts
     * Moved time set task to task outside of network timer  
+* Fixes heap memory related crashing while connected to wifi
+    * Reduces number of rendered SSIDs from 10 -> 7 
 * Fixes Unknown typo in diagnostics filter info page
 * Fixes incorrect sample time label -> now 10 seconds instead of 6 seconds
 * Fixes keypad navigation issue in settings page -> no longer require double presses for beep and diagnostics
