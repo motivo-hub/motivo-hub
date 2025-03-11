@@ -1,0 +1,16 @@
+esp_toml_version = 1.0
+
+# Base URL of the file server where the images are available
+firmware_images_url = "https://motivo-hub.github.io/motivo-hub/fw/"
+
+supported_apps = ["Full-Recovery_A-0_2_7"]
+
+[Full-Recovery_A-0_2_7]
+chipsets = ["auto-detect"]
+image.auto-detect = "bl-part-ba0-fw_0000_A-0_2_7.bin"
+offset = "0x00000"
+description = "PGI Filter Analyzer - Full Recovery F/W ver. A-0.2.7 (User settings will be erased)"
+readme.text = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.A-0.2.7.md"
+
+
+config_readme_url = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.A-0.0.7.md"
