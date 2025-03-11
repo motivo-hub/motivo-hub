@@ -11,11 +11,12 @@
 * Adds optional text field for additional test notes: right below filter age and filter type dropdowns
     * Note that diagnostics input need to be turned on in the settings page
 * Adds color camera stream and improved settings for low light conditions
-    * Activate autoexposure and autogain control
+    * Activates autoexposure and autogain control
     * Changes to RGB565 (full color) instead of monochrome stream for better vis
 * Adds pop up notification to signal upload status to user
     * Will display success message or relevant error information in pop up window
-    * Window is spawned in the background and will dissapear after 2 seconds (duration can be changed in future FW if necessary)
+    * Window is spawned in the background and will dissapear after 2 seconds
+        * Note duration can be changed in future FW if too short
 * Full power off timer to help conserve battery
     * Will turn off device after 30 minutes of inactivity
     * Screen will go into standby mode after 2 minutes of inactivity 
