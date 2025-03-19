@@ -3,7 +3,14 @@ esp_toml_version = 1.0
 # Base URL of the file server where the images are available
 firmware_images_url = "https://motivo-hub.github.io/motivo-hub/fw/"
 
-supported_apps = ["Normal-Update_A-0_2_7", "Full-Recovery_A-0_2_7", "Normal-Update_A-0_1_7", "Full-Recovery_A-0_1_7", "Normal-Update_A-0_0_7", "Full-Recovery_A-0_0_7", "Normal-Update_Nightly"]
+supported_apps = ["FG-Testing-Update_A-T_2_7", "Normal-Update_A-0_2_7", "Full-Recovery_A-0_2_7", "Normal-Update_A-0_1_7", "Full-Recovery_A-0_1_7", "Normal-Update_A-0_0_7", "Full-Recovery_A-0_0_7", "Normal-Update_Nightly"]
+
+[FG-Testing-Update_A-T_2_7]
+chipsets = ["auto-detect"]
+image.auto-detect = "fw_10000_A-T_2_7.bin"
+offset = "0x10000"
+description = "PGI Filter Analyzer - Normal Update F/W ver. A-T.2.7 (User settings will be preserved)"
+readme.text = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.A-T.2.7.md"
 
 [Normal-Update_A-0_2_7]
 chipsets = ["auto-detect"]
