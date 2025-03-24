@@ -6,13 +6,10 @@
 * After a filter replacement procedure, the Results screen will now show the filtration percentage of both the Old and New filters
 * After a Measurement Re-run, the Results screen will now show the filtration percentage of both the Old and New measurments
 * On a normal Mesurement, the User is no longer requested to take an Ambient Measurement if one has been taken in the last hour
-* On a Measurement Re-run, the User is now requested to take a new Ambient Measurement 
 * In the filter type dropdown menu, "Unknown" type is now supported
 
 **Fixes:**
 * When USB is disconnected while in Standby, system now powers down
-* Wake up from Standby now requires a 2+ seconds Power Button press
-* The security of the Keys for Cloud data upload has now been enhanced 
 
 
 ## ver. A-0.2.7
