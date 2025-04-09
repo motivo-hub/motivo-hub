@@ -3,7 +3,16 @@ esp_toml_version = 1.0
 # Base URL of the file server where the images are available
 firmware_images_url = "https://motivo-hub.github.io/motivo-hub/fw/"
 
-supported_apps = ["Normal-Update_A-0_3_0", "Full-Recovery-Update_A-0_3_0",  "FG-Testing-Update_A-T_2_7", "Normal-Update_A-0_2_7", "Full-Recovery_A-0_2_7", "Normal-Update_A-0_1_7", "Full-Recovery_A-0_1_7", "Normal-Update_A-0_0_7", "Full-Recovery_A-0_0_7"]
+supported_apps = ["Full-Recovery-Update_A-0_4_0", "Normal-Update_A-0_3_0", "Full-Recovery-Update_A-0_3_0",  "FG-Testing-Update_A-T_2_7", "Normal-Update_A-0_2_7", "Full-Recovery_A-0_2_7", "Normal-Update_A-0_1_7", "Full-Recovery_A-0_1_7", "Normal-Update_A-0_0_7", "Full-Recovery_A-0_0_7"]
+
+[Full-Recovery-Update_A-0_4_0]
+chipsets = ["auto-detect"]
+image.auto-detect = "full_0x0000_.A-0.4.0.RC1.bin"
+offset = "0x00000"
+description = "PGI Filter Analyzer - Full Recovery Update F/W ver. A-0.4.0 (User settings will be erased)"
+readme.text = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.A-0.4.0.md"
+
+config_readme_url = "https://motivo-hub.github.io/motivo-hub/fw/ReleaseNotes.A-0.4.0.md"
 
 [Normal-Update_A-0_3_0]
 chipsets = ["auto-detect"]
