@@ -1,5 +1,14 @@
 # PGI PureFlow ViAQ Analyzer Firmware
 
+## ver. C-0.2.1
+
+**New Features:**
+* More Updates to UI
+* Updated UI flow for initial data collection phase
+
+**Fixes:**
+* Longer waitConnect time for Wifi connections
+
 ## ver. C-0.0.0
 
 **New Features:**
